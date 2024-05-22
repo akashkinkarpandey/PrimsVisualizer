@@ -11,6 +11,28 @@
   <div id="copyright"> <b>Created by:<div class="names"></b><br><span style="text-decoration: underline;background-color: beige;">Team Group 3</span><br> Priya Pramanick  <br> Akash Kinkar Pandey <br>Anubhuti Roy <br>Sk Shahid </div></div>
   <p>This tool will be helpful to visualize the Prims MST Algorithm. While a graph has been provided you can generate a new graph with the number of nodes desired, by writting an input and clicking generate graph.</p>
   <h3 style="text-decoration: underline;"> PRIMS ALGORITHM </h3>
+  <div>
+    <ol>
+
+      <li>
+        Determine an arbitrary vertex as the starting vertex of the MST.
+      </li>
+        <li>Follow steps 3 to 5 till there are vertices that are not included in the MST (fringe vertex).</li>
+        <li>  Find edges connecting any tree vertex with the fringe vertices.
+        </li>
+        <li>
+        Find the minimum among these edges.
+
+        </li>
+        <li>
+          Add the chosen edge to the MST if it does not form any cycle.
+  Return the MST and exit.
+        </li>
+  
+  
+    </ol>
+
+  </div>
   <label for="generate_num">Number of Nodes: </label>
   <input type="text" id="generate_num" name="Generate Num"><br>
   <button onclick="generate()">Generate Graph</button>
